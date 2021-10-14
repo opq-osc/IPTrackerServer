@@ -24,7 +24,7 @@ jobs:
           goarch: ${{ matrix.goarch }}
           md5sum: false
           ldflags: -w -s
-          release_tag: 1
+          release_tag: release
           overwrite: true
           executable_compression: upx -9
           binary_name: tracker
